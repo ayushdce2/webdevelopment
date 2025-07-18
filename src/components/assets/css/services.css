@@ -1,0 +1,165 @@
+.servicesInside{
+    /* border: 1px solid green; */
+    padding: 5rem 1rem;
+}
+.servicesRow1{
+    display: flex;
+    gap: 0.21rem;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    
+}
+.servicesRow1 img{
+    width: 3rem;
+}
+.servicesRow1 p{
+    font-size: 2rem;
+}
+/* .headingUnderline{
+   
+    top: 55%;
+    position: absolute;
+}
+.servicesRow1 .headingUnderline img{
+    width: 10rem;
+} */
+ .servicesRow1 p:after{
+    position: absolute;
+    content: "";
+    border: 2px solid #E78B48;
+    width: 11%;
+    top: 92%;
+    left: 0;
+ }
+ .subheading .servicessubtext{
+    color: red;
+    font-style: italic;
+ }
+ .subheading > p{
+    font-size: 3rem;
+
+ }
+ .subheading{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0px 3.5rem 0px;
+ }
+ .viewAllButton {
+    background-color: rgb(204, 117, 29);
+    display: flex
+;
+    gap: 1rem;
+    /* width: 30%; */
+    padding: 0.2rem 0.2rem;
+    border-radius: 2rem;
+}
+.viewAllButton .viewMe {
+    height: 3rem;
+}
+.viewAllButton .viewMe a {
+    background-color: blue;
+    color: #fff;
+    padding: 0px 1rem;
+    /* display: block; */
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    height: 100%;
+}
+.viewAllButton .playButton {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.viewAllButton .playButton a {
+    background-color: #fff;
+    /* color: #fff; */
+    /* padding: 1rem; */
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+.viewAllButton .playButton a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    display: block;
+}
+.servicesMainUnit{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servicesMainUnitInside{
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    flex-basis: 24%;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    border-radius: 0.3rem;
+    position: relative;
+    background-color: #F5C45E;
+}
+.servicesMainUnitInside .servicesMainUnitIcon{
+    width: 5rem;
+    height: 5rem;
+    /* border: 1px solid #000; */
+    padding: 0.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.servicesMainUnitInside .servicesMainUnitIcon img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.servicesMainUnitInside .pinRight{
+    position: absolute;
+    width: 3rem;
+    top: 0;
+    right: 0;
+}
+.servicesMainUnitName{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.9rem 0px 0.5rem 0px;
+    letter-spacing: 1px;
+}
+.servicesMainUnitName p{
+    color: #BE3D2A;
+}
+.servicesMainUnitDesc{
+    margin: 0.7rem 0px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    text-shadow: 0 0 #000;
+}
+.servicesMainUnitDesc p:nth-child(2){
+    white-space: nowrap;
+    width: 10rem; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.servicesMainUnitFooter img{
+    width: 2rem;
+    height: 2rem;
+}
+.servicesMainUnitFooter{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}

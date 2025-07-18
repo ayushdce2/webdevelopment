@@ -1,0 +1,135 @@
+.formInside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formInside .leftForm{
+    width: 60%;
+    /* text-align: end; */
+}
+.formInside .rightForm{
+    width: 40%;
+}
+.rightForm input{
+    width: 100%;
+    height: 2.2rem;
+    padding: 0.5rem;
+    outline: none;
+    /* border: 1px solid red; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+    color: #102E50;
+    margin-top: 0.3rem;
+}
+.rightForm textarea{
+    width: 100%;
+    height: 8rem;
+    outline: none;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.rightForm button{
+    background-color: #102E50;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.rightForm label{
+    color: #102E50;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+/* .contact-form h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #102E50;
+    font-weight: bold;
+} */
+.contact-form .servicesRow1{
+    margin-bottom: 3rem;
+    color: #102E50;
+    font-weight: bold;
+}
+.contact-form{
+    /* text-align: center; */
+    padding: 5rem 1rem ;
+    overflow: hidden;
+}
+
+.formInside .leftForm p{
+    color: #102E50;
+    font-size: 1.8rem;
+    /* text-align: left; */
+
+  }
+  .formInside .leftForm p:nth-child(1){
+    color: #102E50;
+    font-size: 2.5rem;
+    /* text-align: left; */
+
+  }
+
+  .formInside .leftForm p{
+    line-height: 3rem;    
+  }
+  .formInside{
+    padding: 0px 1rem;
+  }
+
+/* background animation starts */
+.contact-form{
+    position: relative;
+    /* margin-bottom: 1rem; */
+}
+.finalMessage{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #102E50;
+    padding: 8rem 2rem;
+    text-shadow: 1px 1px black;
+}
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #E78B48 50%, #F5C45E 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:absolute;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+ 
+  .arrowsRotate{
+    animation: loaderAmination 2s linear forwards infinite;
+    width: 2rem;
+  }
+  @keyframes loaderAmination {
+        0%{ transform: rotate(0deg);}
+        50%{ transform: rotate(180deg);}
+        100%{ transform: rotate(360deg);}
+  }

@@ -1,0 +1,124 @@
+@media only screen and (max-width: 768px) {
+    
+    .topheaderbannerleft {
+        flex-basis: 100%;
+    }
+    .thbl_row3_inside p {
+        width: 100%;
+    }
+    .thbl_row4_inside{
+        justify-content: center;
+    }
+    .thbl_row4_hireMe{
+        padding: 1rem 2rem;
+
+    }
+    .topheaderbannerright{
+        display: none;
+    }
+    .services_list_inside {
+        width: 470vw;
+    }
+    .subheading{
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .subheading > p{
+        text-align: center;
+    }
+    .servicesMainUnitInside {
+        flex-basis: 100%;
+    }
+    .servicesRow1 p:after {
+        width: 50%;
+    }
+    .aboutinside{
+        padding: 0.3rem;
+    }
+    .aboutWrap {
+        padding: 1rem 0px;
+    }
+    .aboutstatsinside{
+        flex-wrap: wrap;
+    }
+    .aboutstatsunit{
+        width: 100%;
+    }
+    .aboutstats {
+        padding: 1rem 1rem;
+    }
+    .toolsinside{
+        padding: 1rem 0px;
+    }
+    .toolsRow2 .toolsRow2text1 {
+        font-size: 2rem;
+    }
+    .toolsRow2 .toolsRow2text2 {
+        font-size: 2rem;
+    }
+    .toolsList{
+        flex-wrap: wrap;
+        padding: 1rem 1rem;
+    }
+    .toolsitemMain{
+        width: 100%;
+    }
+    .servicesInside {
+        padding: 1rem 1rem;
+    }
+    .portfolioWrap .servicesMainUnitInside {
+        flex-basis: 100%;
+    }
+    .footertopinside{
+        flex-wrap: wrap;
+    }
+    .footerIntroWrap{
+        flex-basis: 100%;
+    }
+    .footerNavWrap{
+        width: 100%;
+    }
+    .footerContactWrap {
+        width: 100%;
+    }
+    .footerNavinside ul{
+        /* text-align: center; */
+    }
+    .footerNavinside{
+        padding: 0px;
+    }
+    .footerContactinside ul{
+        text-align: center;
+    }
+    .footerContactinside{
+        padding: 0px;
+    }
+    .footerbottominside{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .footerbottominside{
+        padding: 1rem;
+    }
+    .topMenuList{
+        display: none;
+    }
+    .topMenu{
+        margin-top: unset;
+    }
+    .formInside{
+        flex-wrap: wrap;
+    }
+    .formInside .leftForm{
+        width: 100%;
+    }
+    .formInside .rightForm{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .contact-form{
+        padding: 5rem 0px;
+    }
+
+  } 

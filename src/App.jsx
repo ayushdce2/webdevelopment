@@ -1,20 +1,24 @@
-import { useState } from 'react'
+import TopHeader from "./components/TopHeader.jsx";
+import MidContent from "./components/MidContent.jsx";
+import Footer from "./components/Footer";
+import "./components/assets/css/home.css";
+import "./components/assets/css/homeresponsive.css";
+import "./components/assets/css/common.css";
 import './App.css';
-import Topheader from './components/Topheader.jsx';
-import Menu from "./components/Menu.jsx";
-import Header from './components/Header.jsx';
+import "./components/assets/css/animation.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+    
     <>
-      <Topheader/>
-      <Menu/>
-      <Header/>
-      
+    <div className="main ">
+        <TopHeader/>
+        <MidContent/>
+        <Footer/>
+        
+    </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

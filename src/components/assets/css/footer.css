@@ -1,0 +1,137 @@
+.ayushFooter{
+    font-weight: bold;
+}
+.footerbottominside{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    letter-spacing: 0.5px;
+    background-color: #102E50;
+    color: #F5C45E;
+}
+
+.footertopWrap{
+    background-color: #102E50;
+}
+.footerIntroRow1{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom:1.5rem ;
+    /* justify-content: center; */
+    border-bottom: 1px solid #F5C45E;
+    padding-bottom: 1rem;
+}
+.footertopinside{
+    padding: 2rem 1rem ;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #F5C45E;
+}
+.footerIntroRow1symbol{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    padding: 0.2rem;
+    font-size: 2.2rem;
+    /* border:1px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BE3D2A;
+}
+.footerIntroRow1symbol img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.footerIntroRow3{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0px ;
+}
+.footerIntroRow3 a img{
+    width: 1.5rem;
+    display: block;
+}
+.footerIntroRow1text{
+    font-size: 1.8rem;
+    color: #BE3D2A;
+    font-weight: bold;
+}
+.footerIntroRow2{
+    font-size: 1.2rem;
+    color: #F5C45E;
+}
+.footerNavWrap{
+    width: 15%;
+}
+.footerNavinside p{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #BE3D2A;
+    border-bottom: 1px solid #F5C45E;
+    padding-bottom: 0.7rem;
+    font-weight: bold;
+}
+.footerNavinside{
+    /* border: 1px solid #000; */
+    /* width: 30%; */
+    padding: 1rem;
+}
+.footerNavinside ul{
+    list-style-type: none;
+    color: #F5C45E;
+    font-size: 1.2rem;
+}
+.footerNavinside ul li{
+    margin: 0.5rem;
+}
+.footerIntroWrap{
+    width: 30%;
+}
+
+/*  */
+.footerContactWrap{
+    /* width: 15%; */
+}
+.footerContactinside > p{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #BE3D2A;
+    border-bottom: 1px solid #F5C45E;
+    padding-bottom: 0.7rem;
+    font-weight: bold;
+}
+.footerContactinside{
+    /* border: 1px solid #000; */
+    /* width: 30%; */
+    padding: 1rem;
+}
+.footerContactinside ul{
+    list-style-type: none;
+    color: #F5C45E;
+}
+.footerContactinside ul li{
+    margin: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.footerContactinside ul li div{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.footerContactinside ul li div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footerContactinside .contactText{
+    font-size: 1.2rem;
+}
+
+.footerNavinside ul li a{
+    text-decoration: none;
+    color: #F5C45E;
+}
